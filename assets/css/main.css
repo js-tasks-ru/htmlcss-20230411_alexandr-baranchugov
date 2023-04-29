@@ -2,8 +2,6 @@
 @import '../fonts/fonts.css';
 @import "./colors.css";
 
-
-
 * {
     font-family: 'Inter', 'Roboto', sans-serif;
 }
