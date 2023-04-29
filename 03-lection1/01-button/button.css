@@ -3,7 +3,7 @@
 .button {
     border: 1px solid;
     border-radius: 8px;
-    font-family: "Roboto";
+    font-family: var(--font-roboto);
     font-weight: 500;
     height: 48px;
     line-height: 16px;
