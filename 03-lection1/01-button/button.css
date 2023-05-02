@@ -23,6 +23,7 @@
 
 .button_block {
     display: block;
+    width: 100%;
 }
 
 .button_primary {
