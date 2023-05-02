@@ -3,16 +3,47 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
+        <link rel="stylesheet" href="./accordion.css"><title>Task 3 - Buttons</title>
+
+        <style>
+            .accordions {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                max-width: 720px;
+                padding: 40px;
+            }
+        </style>
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordions">
+            <details class="accordion">
+                <summary class="accordion__summary">
+                    Accordion item 1
+
+                    <svg width="16" height="8" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="accordion__chevron">
+                        <use xlink:href="./icons.svg#chevron"></use>
+                    </svg>
+                </summary>
+                <div class="accordion__details">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </details>
+
+            <details class="accordion">
+                <summary class="accordion__summary">
+                    Accordion item 1
+
+                    <svg width="16" height="8" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"
+                         class="accordion__chevron">
+                        <use xlink:href="./icons.svg#chevron"></use>
+                    </svg>
+                </summary>
+                <div class="accordion__details">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </details>
+        </div>
     </body>
 </html>
