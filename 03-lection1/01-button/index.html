@@ -4,8 +4,28 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./button.css">
+        <title>Task 3 - Buttons</title>
+
+        <style>
+            .buttons {
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                padding: 16px;
+            }
+        </style>
     </head>
     <body>
+        <div class="buttons">
+            <button class="button button_primary">Primary</button>
+            <button class="button button_secondary">Secondary</button>
+            <button class="button button_alternate">Alternate</button>
+        </div>
 
+        <div class="buttons">
+            <button class="button button_primary" disabled>Primary</button>
+            <button class="button button_secondary" disabled>Secondary</button>
+            <button class="button button_alternate" disabled>Alternate</button>
+        </div>
     </body>
 </html>
