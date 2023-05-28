@@ -5,7 +5,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 6px;
-    height: 157px;
+    /*height: 157px;*/
     padding: 16px 24px 24px;
     position: relative;
 }
